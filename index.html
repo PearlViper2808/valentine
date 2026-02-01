@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To My Valentine 💕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      min-height: 100vh;
+      font-family: 'Quicksand', system-ui, sans-serif;
+      background: linear-gradient(135deg, #fff0f5 0%, #f8e1e9 50%, #ffe4e1 100%);
+      color: #4a2c3d;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 0 3rem;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3.2rem, 8vw, 6.5rem);
+      color: #c71585;
+      margin-bottom: 0.8rem;
+      text-shadow: 0 2px 10px rgba(199,21,133,0.15);
+      letter-spacing: -1px;
+    }
+
+    .subtitle {
+      font-size: clamp(1.3rem, 4vw, 2.1rem);
+      color: #6b3e52;
+      margin-bottom: 2.5rem;
+      font-weight: 500;
+    }
+
+    .heart-cluster {
+      position: absolute;
+      font-size: 1.8rem;
+      user-select: none;
+      pointer-events: none;
+      animation: float 18s infinite ease-in-out;
+      opacity: 0.35;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.78);
+      backdrop-filter: blur(12px);
+      border-radius: 1.6rem;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 12px 40px rgba(199,21,133,0.12),
+                  0 4px 20px rgba(255,182,193,0.15);
+      border: 1px solid rgba(255, 182, 193, 0.4);
+      margin: 2rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: '💌';
+      position: absolute;
+      font-size: 8rem;
+      opacity: 0.06;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-15deg);
+      pointer-events: none;
+    }
+
+    .message {
+      font-size: 1.28rem;
+      line-height: 1.78;
+      color: #3d1f2e;
+      max-width: 80ch;
+      margin: 0 auto;
+    }
+
+    .highlight {
+      color: #c71585;
+      font-weight: 600;
+      background: linear-gradient(90deg, transparent 0%, #ffe4e9 50%, transparent 100%);
+      padding: 0 0.4em;
+      border-radius: 0.3em;
+    }
+
+    .signature {
+      margin-top: 2.8rem;
+      font-style: italic;
+      text-align: right;
+      font-size: 1.4rem;
+      color: #7a3f58;
+    }
+
+    .hearts-row {
+      text-align: center;
+      font-size: 2.8rem;
+      margin: 3rem 0 1rem;
+      letter-spacing: 0.8em;
+      animation: pulse 4s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%,100% { transform: translateY(0) rotate(0deg); }
+      50%     { transform: translateY(-40vh) rotate(360deg); }
+    }
+
+    @keyframes pulse {
+      0%,100% { transform: scale(1); }
+      50%     { transform: scale(1.15); }
+    }
+
+    @media (max-width: 600px) {
+      .card { padding: 2.2rem 1.6rem; }
+      h1 { font-size: 4.2rem; }
+      .hearts-row { font-size: 2.2rem; letter-spacing: 0.5em; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>My Dearest</h1>
+      <div class="subtitle">Happy Valentine's Day 2026 💗</div>
+    </header>
+
+    <div class="card">
+      <div class="message">
+        <p>Every year I think "this time I'll find the perfect words"…</p>
+        <p>and every year I realize the most honest sentence is still:</p>
+        
+        <p style="margin: 2.2rem 0; text-align:center; font-size:1.6rem;">
+          <span class="highlight">I really, really like you.</span>
+        </p>
+
+        <p>Like… <strong>can't-stop-thinking-about-you-at-2-a.m.</strong> like.<br>
+        Like <strong>smiling-at-my-phone-when-your-name-appears</strong> like.<br>
+        Like <strong>mentally-planning-our-next-mundane-Tuesday-together</strong> like.</p>
+
+        <p>Thank you for being the warmest place I know in a world that sometimes feels too cold.</p>
+        
+        <p class="signature">Forever your biggest fan,<br>— me ♡</p>
+      </div>
+    </div>
+
+    <div class="hearts-row">💗 💕 💞 💓 💗</div>
+  </div>
+  <div class="container">
+  <header>
+    <h1>My Love</h1>
+    <div class="subtitle">February 14th, 2026 💘</div>
+  </header>
+
+  <div class="card">
+    <div class="message" style="text-align: center;">
+      <h2 style="margin-bottom: 2rem; color: #c71585; font-size: 2.1rem;">
+        Will you be my Valentine? 🥰
+      </h2>
+
+      <div style="margin: 3rem 0; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap;">
+        <!-- Both buttons say YES but behave differently -->
+        <button 
+          id="yesBtn1"
+          style="font-size: 1.8rem; padding: 1.2rem 3.5rem; background: #ff69b4; color: white; border: none; border-radius: 999px; cursor: pointer; box-shadow: 0 6px 20px rgba(255,105,180,0.4); transition: all 0.25s;"
+          onmouseover="this.style.transform='scale(1.15)'; this.style.boxShadow='0 10px 30px rgba(255,105,180,0.6)'"
+          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(255,105,180,0.4)'"
+          onclick="alert('YAAAY!!! 💖💖💖 I knew you\'d say yes! 😍 Now you\'re officially my Valentine FOREVER!'); window.location.href='www.youtube.com/watch?v=2kS8MkBz7GY'">
+          YES
+        </button>
+
+        <button 
+          id="yesBtn2"
+          style="font-size: 1.8rem; padding: 1.2rem 3.5rem; background: #ff69b4; color: white; border: none; border-radius: 999px; cursor: pointer; box-shadow: 0 6px 20px rgba(255,105,180,0.4); transition: all 0.25s;"
+          onmouseover="this.style.transform='scale(1.12)'; this.style.boxShadow='0 10px 30px rgba(255,105,180,0.6)'"
+          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 20px rgba(255,105,180,0.4)'"
+          onclick="alert('Hehe… you have no choice! 💕 You\'re my Valentine now~ 😘'); confettiBurst();">
+          YES
+        </button>
+      </div>
+
+      <p style="margin-top: 3rem; font-size: 1.3rem; color: #6b3e52;">
+        (no pressure or anything… but both buttons say yes anyway 🤭)
+      </p>
+
+      <p class="signature" style="margin-top: 4rem; text-align: center;">
+        Can't wait to celebrate with you,<br>
+        — Your forever crush ♡
+      </p>
+    </div>
+  </div>
+
+  <div class="hearts-row">💕 💗 💞 💓 💗 💖</div>
+</div>
+
+  <!-- Floating hearts -->
+   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script>
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.className = 'heart-cluster';
+      heart.innerHTML = Math.random() > 0.5 ? '💗' : '💖';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.top = '-10vh';
+      heart.style.fontSize = (1.2 + Math.random() * 2.2) + 'rem';
+      heart.style.animationDuration = (12 + Math.random() * 14) + 's';
+      heart.style.animationDelay = Math.random() * 5 + 's';
+      heart.style.opacity = 0.2 + Math.random() * 0.4;
+      document.body.appendChild(heart);
+
+      setTimeout(() => heart.remove(), 30000);
+    }
+
+    setInterval(createHeart, 1800);
+    // initial burst
+    for(let i = 0; i < 12; i++) setTimeout(createHeart, i * 300);
+
+      function confettiBurst() {
+    const duration = 4 * 1000;
+    const end = Date.now() + duration;
+
+    (function frame() {
+      confetti({
+        particleCount: 8,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors: ['#ff69b4', '#ff1493', '#ffb6c1', '#db7093']
+      });
+      confetti({
+        particleCount: 8,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors: ['#ff69b4', '#ff1493', '#ffb6c1', '#db7093']
+      });
+
+      if (Date.now() < end) {
+        requestAnimationFrame(frame);
+      }
+    }());
+  }
+
+  // Optional: tiny floating hearts keep coming
+  function createHeart() {
+    const heart = document.createElement('div');
+    heart.className = 'heart-cluster';
+    heart.innerHTML = ['💗','💖','💕','💞','💓'][Math.floor(Math.random()*5)];
+    heart.style.left = Math.random() * 100 + 'vw';
+    heart.style.top = '-10vh';
+    heart.style.fontSize = (1 + Math.random() * 2.5) + 'rem';
+    heart.style.animationDuration = (10 + Math.random() * 15) + 's';
+    document.body.appendChild(heart);
+    setTimeout(() => heart.remove(), 40000);
+  }
+
+  setInterval(createHeart, 1200);
+  for(let i=0; i<10; i++) setTimeout(createHeart, i*400);
+  </script>
+</body>
+</html>
